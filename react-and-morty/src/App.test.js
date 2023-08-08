@@ -12,3 +12,4 @@ test('Page loads complety?', () => {
   render(<App />)
   expect(document.readyState).toBe('complete')
 })
+
