@@ -13,3 +13,45 @@
     left: 10px;
     color:aliceblue
   }
+
+  .home{
+    background-color: var(--overlay);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+}
+
+.home:before{
+    content: '';
+    background: url('https://images.immediate.co.uk/production/volatile/sites/3/2022/11/RAM-S06E07-Full-Meta-JackRick-1-2fcb6b1.jpg') no-repeat center center/cover;
+    height: 105%;
+    width: 100%;
+    position: absolute;
+    top: -5%;
+    left: 0;
+    z-index: -1;
+}
+
+.home .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.content p:first-child{
+    font-size: 4rem;
+    font-weight: 700;
+   color: rgb(33, 73, 49);
+}
+
+.content p:nth-child(2){
+     font-size: 2.2rem;
+    font-style: italic;
+    color: rgb(33, 73, 49);
+}
+

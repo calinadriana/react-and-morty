@@ -33,11 +33,11 @@ function App() {
 }
 const Home = ()=>{
   return (
-    <div className="App">
-    <div className="d-flex flex-column justify-content-center">
-        <img className={css.img} src={logo} alt=''></img>
-        <div className="top-left">The Rick and Morty API is a REST(ish) and GraphQL API based on the television show Rick and Morty. You will have access to about hundreds of characters, images, locations and episodes. The Rick and Morty API is filled with canonical information as seen on the TV show.</div>
-    </div>
+    <div className="home" >
+      <div className="content">
+        <p>React and Morty</p>
+        <p>A website for your preferences.</p>
+      </div>
     </div>
   );
 
